@@ -1,6 +1,6 @@
 # coding=UTF-8
 
-# @brief {brief description]
+# @brief geolocation retrieval for IP addresss
 #
 # @author webofthink@snu.ac.kr
 #
