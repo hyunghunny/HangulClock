@@ -16,6 +16,7 @@ def get_geolocation(ip):
     import requests
     FREEGEOPIP_URL = 'http://freegeoip.net/json/'
     url = '{}/{}'.format(FREEGEOPIP_URL, ip)
+    print 'send request: ' + url
     response = requests.get(url)
     response.raise_for_status()
 
